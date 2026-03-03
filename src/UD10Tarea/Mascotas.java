@@ -3,9 +3,9 @@ package UD10Tarea;
 public abstract class Mascotas {
 
 	// Atributosde las mascotas
-	protected String nombreI;
-	protected int edad;
-	protected String estado;
+	private String nombreI;
+	private int edad;
+	private String estado;
 
 	// Constructor
 	public Mascotas(String nombreI, int edad, String estado) {
